@@ -51,7 +51,9 @@ Python: 3.11+
 
 # GET /stores/{id}/anomalies: Automated bottleneck detection (e.g., checkout queues).
 
-# Once the server is live, access:
+# Our server is live, access below please:
+
+**https://apex-omni-store-intelligence-platform-1.onrender.com/docs**
 
 # Swagger UI: http://127.0.0.1:8000/docs
 
