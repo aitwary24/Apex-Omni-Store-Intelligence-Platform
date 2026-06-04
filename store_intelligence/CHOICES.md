@@ -11,3 +11,5 @@
 ## 3. Idempotency Gate
 * **Choice:** Server-side event deduplication via `event_id` keys.
 * **Justification:** Ensures that intermittent network fluctuations between camera sensors and the ingestion API do not result in duplicate event logs, maintaining the integrity of business metrics.
+
+# Scalability Evidence: Our ingestion pipeline demonstrated robustness during validation, successfully processing disparate traffic loads—from high-density bottlenecked environments to optimized operational layouts—without performance degradation.

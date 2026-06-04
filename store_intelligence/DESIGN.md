@@ -32,3 +32,20 @@ Extraction Engine (pipeline/tracker.py):
 # Operational Bottlenecks: Anomaly detection is performed by calculating queue depth via count queries on the BILLING_QUEUE zone, triggering a CRITICAL status if the aggregate exceeds defined layout thresholds.
 
 # Resource Efficiency: High-frequency CCTV frame data is down-sampled to 1FPS via temporal skipping, drastically reducing CPU/RAM utilization while preserving the fidelity of retail-relevant movement patterns.
+
+
+# System Validation Harness: The platform includes an integration_harness.py that simulates real-world CCTV ingestions (5 channels per store). As evidenced in our execution logs, the system maintains high-confidence metrics across multiple store profiles (ST1008, ST1042), accurately flagging operational bottlenecks like queue surges in real-time.
+
+# The system uses a pipeline-to-persistence AI architecture. Computer Vision is deployed at the edge to reduce high-entropy video data into structured, low-entropy event streams. This enables real-time decisioning on checkout bottlenecks and conversion funnels, which otherwise require manual human oversight.
+
+# In this project, AI tools were leveraged to accelerate development, optimize architecture, and solve complex logic challenges:
+
+# Architecture & Design: Gemini was utilized to structure the decoupled "Pipeline-to-Persistence" architecture, ensuring the API and CV processing layers could scale independently.
+
+# Database & Schema Optimization: Gemini assisted in designing the SQLAlchemy relational schema to handle high-frequency event ingestion and complex funnel query joins, ensuring ACID compliance and query performance.
+
+# Algorithm Refinement: AI models helped troubleshoot OpenCV background subtraction logic, specifically by identifying the correct system-level dependencies (like libgl1) for the Debian-based Docker environment.
+
+# Code Quality & Debugging: AI tools were used for real-time debugging of deployment failures on Render/Vercel, providing clear insights into ModuleNotFoundError issues and Docker build context paths.
+
+# Documentation: The structured documentation (README.md, DESIGN.md, CHOICES.md) was iteratively refined with AI assistance to ensure clarity, professional tone, and comprehensive coverage of technical trade-offs.

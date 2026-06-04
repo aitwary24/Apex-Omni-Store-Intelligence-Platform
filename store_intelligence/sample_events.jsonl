@@ -1,0 +1,10 @@
+{"event_id": "EVT_1001", "store_id": "ST1042", "visitor_id": "VIS_A1", "zone": "ENTRANCE", "timestamp": "2026-06-04T09:00:00Z", "action": "entry"}
+{"event_id": "EVT_1002", "store_id": "ST1042", "visitor_id": "VIS_A1", "zone": "MAKEUP", "timestamp": "2026-06-04T09:05:00Z", "action": "visit"}
+{"event_id": "EVT_1003", "store_id": "ST1042", "visitor_id": "VIS_A2", "zone": "ENTRANCE", "timestamp": "2026-06-04T09:06:00Z", "action": "entry"}
+{"event_id": "EVT_1004", "store_id": "ST1042", "visitor_id": "VIS_A1", "zone": "SKINCARE", "timestamp": "2026-06-04T09:12:00Z", "action": "visit"}
+{"event_id": "EVT_1005", "store_id": "ST1042", "visitor_id": "VIS_A3", "zone": "ENTRANCE", "timestamp": "2026-06-04T09:15:00Z", "action": "entry"}
+{"event_id": "EVT_1006", "store_id": "ST1042", "visitor_id": "VIS_A2", "zone": "MAKEUP", "timestamp": "2026-06-04T09:16:00Z", "action": "visit"}
+{"event_id": "EVT_1007", "store_id": "ST1042", "visitor_id": "VIS_A1", "zone": "BILLING_QUEUE", "timestamp": "2026-06-04T09:20:00Z", "action": "queue"}
+{"event_id": "EVT_1008", "store_id": "ST1042", "visitor_id": "VIS_A1", "zone": "BILLING_QUEUE", "timestamp": "2026-06-04T09:25:00Z", "action": "purchase"}
+{"event_id": "EVT_1009", "store_id": "ST1042", "visitor_id": "VIS_A3", "zone": "BATH-AND-BODY", "timestamp": "2026-06-04T09:28:00Z", "action": "visit"}
+{"event_id": "EVT_1010", "store_id": "ST1042", "visitor_id": "VIS_A3", "zone": "BILLING_QUEUE", "timestamp": "2026-06-04T09:35:00Z", "action": "queue"}

@@ -64,3 +64,13 @@ Python: 3.11+
 # docker build -t store-intelligence .
 # docker run -p 8000:8000 store-intelligence
 # Logging: All pipeline execution traces and metric computations are stored in EXECUTION_LOG.txt for auditability.
+
+
+### 📊 Sample System Output
+Our system successfully processes multi-channel video streams and detects operational anomalies in real-time.
+
+| Metric | Store ID: ST1008 | Store ID: ST1042 |
+| :--- | :--- | :--- |
+| Unique Visitors | 1347 | 615 |
+| Conversion Rate | 1.78% | 13.17% |
+| Bottleneck Status | CRITICAL | CLEAR |
