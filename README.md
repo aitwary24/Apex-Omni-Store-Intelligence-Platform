@@ -16,10 +16,10 @@ Python: 3.11+
 # Environment: Create a .env file in the project root:
 
 # Code snippet
-# API_URL=http://127.0.0.1:8000
+# API_URL=https://apex-omni-store-intelligence-platform-1.onrender.com || http://127.0.0.1:8000
 # DATABASE_URL=sqlite:///./store_intelligence.db
 # POS_DATA_FILE=Brigade_Bangalore_10_April_26.csv
-# LAYOUT_DATA_FILE=Brigade_Road_Store_layout.csv
+# LAYOUT_DATA_FILE=Brigade_Road_Store_layout.xlsx
 
 
 2. Quick Start
