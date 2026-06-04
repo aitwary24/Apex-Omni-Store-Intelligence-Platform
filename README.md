@@ -53,11 +53,11 @@ Python: 3.11+
 
 # Our server is live, access below please:
 
-**https://apex-omni-store-intelligence-platform-1.onrender.com/docs**
+**https://apex-omni-store-intelligence-platform-1.onrender.com**
 
-# Swagger UI: http://127.0.0.1:8000/docs
+# Swagger UI: https://apex-omni-store-intelligence-platform-1.onrender.com/docs || http://127.0.0.1:8000/docs
 
-# ReDoc: http://127.0.0.1:8000/redoc
+# ReDoc: https://apex-omni-store-intelligence-platform-1.onrender.com/redoc || http://127.0.0.1:8000/redoc
 
 🛠️ Infrastructure & Maintenance
 # Docker Support: A Dockerfile is provided for containerized deployment. Build and run using:
